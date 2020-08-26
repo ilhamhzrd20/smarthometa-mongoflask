@@ -6,3 +6,5 @@ from flask import Flask
 app = Flask(__name__)
 
 from app import usersData
+from app import devices
+from app import messages
